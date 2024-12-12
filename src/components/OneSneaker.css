@@ -1,20 +1,7 @@
-.one-sneaker {
-  width: 100%;
-  height: fit-content;
-  text-transform: uppercase;
-  border: 1px solid rgba(0, 0, 0, 0.15);
-  transition: all 0.2s linear;
-  padding: 24px;
-}
-.one-sneaker:hover {
-  border: 1px solid rgba(0, 0, 0, 0.25);
-  box-shadow: 0 0 7px rgba(0, 0, 0, 0.2);
-}
 .one-sneaker img {
   width: 100%;
   height: 200px;
   object-fit: cover;
-  cursor: pointer;
 }
 .one-sneaker h3 {
   font-size: 18px;
@@ -33,6 +20,14 @@
 }
 .one-sneaker .price-and-btn p {
   font-size: 16px;
+}
+svg {
+  font-size: 20px;
+  transition: all 0.2s linear;
+  cursor: pointer;
+}
+svg:hover {
+  transform: translateY(-3px);
 }
 
 /* ------- RESPONSIVE DESIGN ------- */
