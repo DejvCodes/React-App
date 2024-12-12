@@ -1,6 +1,6 @@
 ## React App
 • Working with React <br>
-• Map, PropTypes, Props <br>
+• Map, PropTypes, Props, useState <br>
 • Responsive Design 
 
 ## Screenshots 📱
