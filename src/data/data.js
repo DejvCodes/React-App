@@ -5,6 +5,7 @@ const sneakers = [
     title: "Air Force 1 Mid SP Off-White Varsity Maize",
     price: 7999,
     image: "https://cdn.myshoptet.com/usr/www.sneakerstore.cz/user/shop/big/2934_nike-air-force-1-mid-off-white-varsity-maize-22241733-47755506-1000.png?655cb5ef",
+    type: "Air Force",
   },
   {
     id: 2,
@@ -12,6 +13,7 @@ const sneakers = [
     title: "Air Jordan 1 Mid University Blue Black",
     price: 3990,
     image: "https://cdn.myshoptet.com/usr/www.sneakerstore.cz/user/shop/big/2970-3_jordan-air-jordan-1-mid-university-blue-black-21556508-47065761-2048.jpg?6561fcf8",
+    type: "Jordan 1",
   },
   {
     id: 3,
@@ -19,6 +21,7 @@ const sneakers = [
     title: "Jordan 4 Retro Fire Red (2020)",
     price: 14990,
     image: "https://cdn.myshoptet.com/usr/www.sneakerstore.cz/user/shop/big/2127_air-jordan-4-retro-fire-red-2020-1-1000.png?63c2e701",
+    type: "Retro 4",
   },
   {
     id: 4,
@@ -26,6 +29,8 @@ const sneakers = [
     title: "Air Jordan 1 Mid Tropical Twist",
     price: 4990,
     image: "https://cdn.myshoptet.com/usr/www.sneakerstore.cz/user/shop/big/3643_jordan-air-jordan-1-mid-aqua-22834144-48372487-2048.png?66a9ff80",
+    type: "Jordan 1",
+
   },
   {
     id: 5,
@@ -33,6 +38,7 @@ const sneakers = [
     title: "Air Jordan Retro 4 Vivid Sulfur",
     price: 5190,
     image: "https://cdn.myshoptet.com/usr/www.sneakerstore.cz/user/shop/big/3187_jordan-air-jordan-4-wmns-vivid-sulfur-23070019-49045955-2048.jpg?66210c80",
+    type: "Retro 4",
   },
   {
     id: 6,
@@ -40,6 +46,7 @@ const sneakers = [
     title: "Dunk Low SB There Skateboards",
     price: 6900,
     image: "https://cdn.myshoptet.com/usr/www.sneakerstore.cz/user/shop/big/3679_nike-sb-dunk-low-there-skateboards-24859029-55028307-2048.jpg?66b4c3b6",
+    type: "Dunk Low",
   },
   {
     id: 7,
@@ -47,6 +54,7 @@ const sneakers = [
     title: "Dunk Low Laser Fuchsia (GS)",
     price: 3390,
     image: "https://cdn.myshoptet.com/usr/www.sneakerstore.cz/user/shop/big/3068-2_nike-kids-dunk-low-gs-laser-fuchsia-22418445-47923692-2048.png?659bd17d",
+    type: "Dunk Low",
   },
   {
     id: 8,
@@ -54,6 +62,7 @@ const sneakers = [
     title: "Air Jordan 1 Low Green Glow (GS)",
     price: 4190,
     image: "https://cdn.myshoptet.com/usr/www.sneakerstore.cz/user/shop/big/3658_jordan-kids-air-jordan-1-mid-gs-green-glow-24333435-49258614-1000.png?66ab5b64",
+    type: "Jordan 1",
   },
 ]
 
