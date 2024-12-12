@@ -34,7 +34,7 @@ const App = () => {
 
   return (
     <>
-      <h1>Sneakers List.</h1>
+      <h1>Sneakers App.</h1>
 
       <div className="categories">
         <button className="btn" onClick={() => typeOfSneakers("vše")}>Vše</button>
