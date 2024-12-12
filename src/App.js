@@ -33,8 +33,8 @@ const App = () => {
       </div>
 
       <div className="buttons">
-        <button className="btn delete-all" onClick={deleteAllSneakers}>Delete All</button>
-        <button className="btn reload" onClick={reloadAllSneakers}>Reload</button>
+        <button className="btn delete-all" onClick={deleteAllSneakers}>Vymazat vše</button>
+        <button className="btn reload" onClick={reloadAllSneakers}>Načíst</button>
       </div>
     </>
   )
