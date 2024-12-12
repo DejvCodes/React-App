@@ -36,6 +36,7 @@ h1 {
 .one-sneaker {
   position: relative;
   width: 100%;
+  max-width: 500px;
   height: fit-content;
   text-transform: uppercase;
   border: 1px solid rgba(0, 0, 0, 0.15);
