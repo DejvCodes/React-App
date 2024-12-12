@@ -23,14 +23,14 @@ const App = () => {
   return (
     <>
       <h1>Sneakers List.</h1>
-        <div className="all-sneakers">
-          {sneakerList.map((oneSneaker, index) => {
-            return <div className="one-sneaker" key={index}>
-              <OneSneaker {...oneSneaker} />
-              <button className="btn delete" onClick={() => deleteOneSneaker(oneSneaker.id)}>Vymazat</button>
-            </div>
-          })}
-        </div>
+      <div className="all-sneakers">
+        {sneakerList.map((oneSneaker, index) => {
+          return <div className="one-sneaker" key={index}>
+            <OneSneaker {...oneSneaker} />
+            <button className="btn delete" onClick={() => deleteOneSneaker(oneSneaker.id)}>Vymazat</button>
+          </div>
+        })}
+      </div>
 
       <div className="buttons">
         <button className="btn delete-all" onClick={deleteAllSneakers}>Delete All</button>
