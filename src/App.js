@@ -44,8 +44,8 @@ const App = () => {
       </div>
 
       <div className="all-sneakers">
-        {sneakerList.map((oneSneaker, index) => {
-          return <div className="one-sneaker" key={index}>
+        {sneakerList.map((oneSneaker) => {
+          return <div className="one-sneaker" key={oneSneaker.id}>
             <OneSneaker {...oneSneaker} />
             <button className="btn delete" onClick={() => deleteOneSneaker(oneSneaker.id)}>Vymazat</button>
           </div>
