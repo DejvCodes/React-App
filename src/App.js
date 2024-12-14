@@ -49,7 +49,7 @@ const App = () => {
             <OneSneaker {...oneSneaker} />
             <button className="btn delete" onClick={() => deleteOneSneaker(oneSneaker.id)}>Vymazat</button>
           </div> 
-        })}
+        })} 
       </div>
 
       <div className="buttons">
