@@ -48,7 +48,7 @@ const App = () => {
           return <div className="one-sneaker" key={oneSneaker.id}>
             <OneSneaker {...oneSneaker} />
             <button className="btn delete" onClick={() => deleteOneSneaker(oneSneaker.id)}>Vymazat</button>
-          </div>
+          </div> 
         })}
       </div>
 
