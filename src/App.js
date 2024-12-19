@@ -6,6 +6,7 @@ import { useState } from "react"
 const App = () => {
   const [sneakerList, setSneakerList] = useState(sneakers)
 
+  // Function for filtering the type of sneakers
   const typeOfSneakers = (type) => {
     if (type === "vše") {
       setSneakerList(sneakers)
@@ -17,6 +18,7 @@ const App = () => {
     }
   }
 
+  // Function to delete sneakers by id
   const deleteOneSneaker = (id) => {
     const filteredSneakerList = sneakerList.filter((oneSneaker) => {
       return oneSneaker.id !== id
@@ -24,10 +26,12 @@ const App = () => {
     setSneakerList(filteredSneakerList)
   }
 
+  // Function to delete all sneakers
   const deleteAllSneakers = () => {
     setSneakerList([])
   }
 
+  // Reload function
   const reloadAllSneakers = () => {
     setSneakerList(sneakers)
   }
