@@ -33,45 +33,12 @@ h1 {
   margin: 25px;
   gap: 25px;
 }
-.one-sneaker {
-  position: relative;
-  width: 100%;
-  max-width: 500px;
-  height: fit-content;
-  text-transform: uppercase;
-  border: 1px solid rgba(0, 0, 0, 0.15);
-  transition: all 0.2s linear;
-  padding: 24px;
-}
-.one-sneaker:hover {
-  border: 1px solid rgba(0, 0, 0, 0.25);
-  box-shadow: 0 0 7px rgba(0, 0, 0, 0.2);
-}
-.btn {  
-  font-size: 14px;
-  font-weight: 400;
-  text-transform: uppercase;
-  text-align: center;
-  border: 1px solid rgba(0, 0, 0, 0.35);
-  transition: all 0.2s linear;
-  padding: 3px 7px;
-  cursor: pointer;
-}
-.btn:hover {
-  border: 1px solid rgba(0, 0, 0, 0.55);
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
-}
 .categories {
   display: flex;
   align-items: center;
   justify-content: center;
   gap: 10px;
   margin-top: 12px;
-}
-.btn.delete {
-  position: absolute;
-  left: 24px;
-  top: 24px;
 }
 .buttons {
   display: flex;

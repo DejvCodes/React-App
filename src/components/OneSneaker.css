@@ -1,3 +1,17 @@
+.one-sneaker {
+  position: relative;
+  width: 100%;
+  max-width: 500px;
+  height: fit-content;
+  text-transform: uppercase;
+  border: 1px solid rgba(0, 0, 0, 0.15);
+  transition: all 0.2s linear;
+  padding: 24px;
+}
+.one-sneaker:hover {
+  border: 1px solid rgba(0, 0, 0, 0.25);
+  box-shadow: 0 0 7px rgba(0, 0, 0, 0.2);
+}
 .one-sneaker img {
   width: 100%;
   height: 200px;
@@ -28,6 +42,25 @@ svg {
 }
 svg:hover {
   transform: translateY(-3px);
+}
+.btn.delete {
+  position: absolute;
+  left: 24px;
+  top: 24px;
+}
+.btn {  
+  font-size: 14px;
+  font-weight: 400;
+  text-transform: uppercase;
+  text-align: center;
+  border: 1px solid rgba(0, 0, 0, 0.35);
+  transition: all 0.2s linear;
+  padding: 3px 7px;
+  cursor: pointer;
+}
+.btn:hover {
+  border: 1px solid rgba(0, 0, 0, 0.55);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
 }
 
 /* ------- RESPONSIVE DESIGN ------- */

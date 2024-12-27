@@ -1,7 +1,7 @@
+import { useState } from "react"
 import sneakers from "./data/data"
 import categories from "./data/categories"
 import OneSneaker from "./components/OneSneaker"
-import { useState } from "react"
 
 const App = () => {
   const [sneakerList, setSneakerList] = useState(sneakers)
@@ -48,12 +48,9 @@ const App = () => {
       </div>
 
       <div className="all-sneakers">
-        {sneakerList.map((oneSneaker) => {
-          return <div className="one-sneaker" key={oneSneaker.id}>
-            <OneSneaker {...oneSneaker} />
-            <button className="btn delete" onClick={() => deleteOneSneaker(oneSneaker.id)}>Vymazat</button>
-          </div> 
-        })} 
+        {sneakerList.map((oneSnekaer) => {
+          return <OneSneaker key={oneSnekaer.id} {...oneSnekaer} deleteOneSneaker={deleteOneSneaker} />
+        })}
       </div>
 
       <div className="buttons">
